@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Crud</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CRUD</h1>
+      <div id="card-container" class="card-container"></div>
+      <div class="btn-section action-btn">
+        <button class="action-btn__add-new">Add new</button>
+      </div>
+      <div class="form form-container d-none">
+        <input
+          class="input"
+          id="new-artist-name"
+          type="text"
+          placeholder="Add an artist"
+          required />
+        <div class="validation-error" id="msg1"></div>
+        <textarea
+          class="textarea"
+          id="new-artist-description"
+          placeholder="Add description of an artist"
+          required></textarea>
+        <div class="validation-error" id="msg2"></div>
+        <input
+          class="button add-new-artist"
+          id="new-artist-submit"
+          type="submit"
+          value="Submit new artist" />
+      </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>

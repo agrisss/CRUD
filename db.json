@@ -1,0 +1,14 @@
+{
+  "artists": [
+    {
+      "name": "Wu-tang",
+      "description": "asdasd",
+      "id": 1
+    },
+    {
+      "name": "BEAM",
+      "description": "OLALALA",
+      "id": 2
+    }
+  ]
+}
